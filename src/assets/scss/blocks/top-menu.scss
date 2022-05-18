@@ -1,0 +1,17 @@
+.nav {
+  &__list {
+    display: flex;
+  }
+  &__item {
+    &:not(:last-child) {
+      margin-right: 40px;
+    }
+  }
+  &__link {
+    color: $white;
+    transition: opacity .2s linear;
+    &:hover {
+      opacity: .8;
+    }
+  }
+}

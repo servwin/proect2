@@ -1,0 +1,51 @@
+.footer {
+  background-color: $black;
+  color: $white;
+  padding: 30px 0;
+  &__inner {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+   
+  }
+  &__item-title {
+    margin-bottom: 10px;
+    font-size: 27px;
+  }
+  &__item {
+    width: 100%;
+    max-width: 33.33333%;
+    padding: 0 15px;
+    margin-bottom: 20px;
+  }
+  svg {
+    fill: #03a9f5;
+    width: 28px;
+    height: 28px;
+    margin-top: 3px;
+    margin-right: 10px;
+    transition: opacity .2s ease-in-out;
+    &:hover {
+     opacity: .8;
+    }
+  }
+  span {
+    display: flex;
+  }
+  &-map__descr {
+    max-width: 200px;
+  }
+  &__social-list {
+    display: flex;
+  }
+  &__social-item {
+    margin-right: 10px;
+  }
+  &__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+}

@@ -1,0 +1,22 @@
+.price {
+  color: #0d6efd;
+  font-size: 20px;
+  font-weight: 700;
+
+  &__row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+  }
+
+  &__btn {
+    max-width: 180px;
+    padding: 7px 20px 7px;
+    font-size: 15px;
+    margin-right: 25px;
+  }
+}

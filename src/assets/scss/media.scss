@@ -1,0 +1,261 @@
+@media(max-width:991px) {
+  .nav {
+    display: none;
+    background-color: $black;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: -1000;
+    width: 100%;
+
+    &__list {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &__item {
+      padding-bottom: 40px;
+      padding-top: 20px;
+    }
+  }
+
+  .burger {
+    display: block;
+  }
+  .intro {
+    &__title {
+      font-size: 25px;
+    }
+  }
+  .section-services {
+    &__item {
+      max-width: 50%;
+    }
+  }
+  .section-guarantee {
+    &__inner {
+      flex-direction: column;
+    }
+    &__item {
+      max-width: 100%;
+      text-align: center;
+    }
+    &__title {
+      font-size: 30px;
+    }
+  }
+  .services {
+    &__item {
+     max-width: 49%;
+    }
+  }
+}
+@media(max-width:768px) {
+  .intro {
+    padding-top: 150px;
+    padding-bottom: 30px;
+    min-height: auto;
+  }
+  .section-services {
+    &__item {
+      max-width: 100%;
+    }
+  }
+  .services {
+    &__item {
+     max-width: 100%;
+    }
+  }
+  .about {
+    &__text-title {
+      font-size: 25px;
+    }
+  }
+  .section-contacts {
+    &__inner {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+     
+    }
+    &__col {
+      text-align: center;
+      max-width: 100%;
+    }
+  }
+  .footer {
+    background-color: $black;
+    color: $white;
+    padding: 30px 0;
+    &__item {
+      max-width: 50%;
+    }
+  }
+}
+@media(max-width:567px) {
+  .section-guarantee {
+    &__inner {
+      flex-direction: column;
+    }
+    &__item {
+      max-width: 100%;
+      text-align: center;
+    }
+    &__title {
+      font-size: 20px;
+    }
+  }
+  .about {
+    &__text-title {
+      font-size: 18px;
+      line-height: 1.8;
+    }
+  }
+  .footer {
+    background-color: $black;
+    color: $white;
+    padding: 30px 0;
+    &__inner {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+@media(max-width:412px) {
+  .intro {
+    &__title {
+      font-size: 16px;
+      line-height: 1.8;
+    }
+  }
+  .section-services {
+    &__title {
+      font-size: 12px;
+    }
+  }
+  .price {
+    color: #0d6efd;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    &__btn {
+      display: block;
+      max-width: 100%;
+    }
+
+  
+    &__row {
+      flex-direction: column;
+    }
+  }
+  .footer {
+    background-color: $black;
+    color: $white;
+    padding: 30px 0;
+    &__item-title {
+      font-size: 20px;
+    }
+    &__inner {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    span {
+      font-size: 12px;
+    }
+    &__button {
+      padding: 10px;
+      font-size: 15px;
+    }
+  }
+}
+@media(max-width:360px) {
+  .intro {
+    &__title {
+      font-size: 16px;
+      line-height: 1.8;
+    }
+  }
+  .section-services {
+    &__title {
+      font-size: 12px;
+    }
+  }
+  .price {
+    color: #0d6efd;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    &__btn {
+      display: block;
+      max-width: 100%;
+    }
+  
+    &__row {
+      flex-direction: column;
+    }
+  }
+  .footer {
+    background-color: $black;
+    color: $white;
+    padding: 30px 0;
+    &__item-title {
+      font-size: 18px;
+    }
+    &__inner {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    span {
+      font-size: 12px;
+    }
+    &__button {
+      padding: 10px;
+      font-size: 15px;
+    }
+  }
+}
+@media(max-width:320px) {
+  .intro {
+    &__title {
+      font-size: 16px;
+      line-height: 1.8;
+    }
+  }
+  .section-services {
+    &__title {
+      font-size: 12px;
+    }
+  }
+  .price {
+    color: #0d6efd;
+    font-size: 20px;
+    font-weight: 700;
+  
+    &__row {
+      flex-direction: column;
+    }
+  }
+  .footer {
+    background-color: $black;
+    color: $white;
+    padding: 30px 0;
+    &__item-title {
+      font-size: 15px;
+    }
+    &__inner {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    span {
+      font-size: 12px;
+    }
+    &__button {
+      padding: 3px;
+      font-size: 13px;
+    }
+  }
+}

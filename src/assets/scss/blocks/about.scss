@@ -1,0 +1,16 @@
+.about {
+  background-color: $bule--accent;
+  min-height: 80px;
+  padding: 20px 0;
+  &__text {
+    color: $white;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  &__text-title {
+   
+  }
+}

@@ -1,0 +1,32 @@
+.services {
+  &__inner {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    margin: 0 -15px;
+  }
+  &__item {
+    margin-right: 1%;
+    width: 100%;
+    max-width: 32%;
+    padding: 30px 10px 80px;
+    text-align: center;
+    background-color: #f9f9f9;
+    box-shadow: 0 7px 24.3px 2.7px rgb(91 89 89 / 14%);
+    position: relative;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  &__img {
+    margin-bottom: 5px;
+    max-height: 150px;
+  }
+  &__title {
+    font-size: 17px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  &__descr {
+    font-size: 14px;
+  }
+}

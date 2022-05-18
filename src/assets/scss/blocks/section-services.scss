@@ -1,0 +1,32 @@
+.section-services {
+  &__inner {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+   
+  }
+  &__item {
+    width: 100%;
+    max-width: 33.33333%;
+    padding: 0 15px;
+    position: relative;
+    padding-left: 85px;
+    padding-right: 7px;
+    margin-bottom: 20px;
+  }
+  &__title {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+   
+  }
+  &__descr {
+    color: #8c8c8c;
+    font-size: 13px;
+  }
+  &__icons {
+    position: absolute;
+    top: 0;
+    left: 30px;
+  }
+}
